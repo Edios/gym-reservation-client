@@ -15,6 +15,7 @@ const handleLogin = async (e) => {
             navigate('/calendar');
         }
         catch(error){
+            console.error(error);
             alert('Invalid credentials');
         }
     }
